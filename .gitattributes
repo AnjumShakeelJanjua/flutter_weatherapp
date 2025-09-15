@@ -1,0 +1,10 @@
+# Mark generated files to be ignored by GitHub Linguist and other tools
+*.freezed.dart linguist-generated=true
+*.g.dart linguist-generated=true
+*.gr.dart linguist-generated=true
+pubspec.lock linguist-generated=true
+
+# Ensure consistent line endings for specific file types
+*.dart text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
